@@ -1,9 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-align: center;
-    border: 1px solid;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
 }
 
 body {
@@ -12,16 +14,16 @@ body {
     height: 100vh;
 }
 
-.header, .footer {
+.header,
+.footer {
     height: 40px;
 }
 
 .content {
-    display: flex ;
+    display: flex;
     border: 1px solid;
     flex: 1;
 }
-
 
 .sidebar {
     width: 25%;
@@ -30,3 +32,22 @@ body {
 .main {
     width: 75%
 }
+
+/* Header Styles */
+/* Hero Styles */
+
+.carousel img {
+    height: 200px;
+    object-fit: contain;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    filter:drop-shadow(0 0 10px red);
+    border-radius: 3px;
+   }
+
+
+
+/* Sidebar Styles */
+/* Main Styles */
+/* Footer Styles */
